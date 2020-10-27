@@ -23,5 +23,15 @@ public String getPassword(){
     password=pw;
   }
 
+  public boolean deposit(double money){
+    if (money<0){
+      return false;
+    }
+    else{
+      balance+=money;
+      return true;
+    }
+  }
+
 
 }
