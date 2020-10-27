@@ -33,5 +33,17 @@ public String getPassword(){
     }
   }
 
+  public boolean withdraw(double money){
+    if (money<0 || (balance-money)<0){
+      return false;
+    }
+    else{
+      balance-=money;
+      return true;
+    }
+  }
 
+  public String toString(){
+    return ""+accountID+"\t"+balance;
+  }
 }
