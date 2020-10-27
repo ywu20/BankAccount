@@ -17,5 +17,18 @@ public class Tester{
     System.out.println(a.deposit(0));
     System.out.println(a.getBalance());
 
+    //withdraw method test
+    System.out.println(a.withdraw(2.8));
+    System.out.println(a.getBalance());
+    System.out.println(a.withdraw(-2.2));
+    System.out.println(a.getBalance());
+    System.out.println(a.withdraw(0));
+    System.out.println(a.getBalance());
+    System.out.println(a.withdraw(100));
+    System.out.println(a.getBalance());
+
+    //toString method test
+    System.out.println(a.toString());
+
   }
 }
