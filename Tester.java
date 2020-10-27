@@ -1,5 +1,6 @@
 public class Tester{
   public static void main(String[] args){
+    /*
     //constructor + get methods test
     BankAccount a = new BankAccount(0,"1234567");
     System.out.println(a.getBalance());
@@ -29,6 +30,6 @@ public class Tester{
 
     //toString method test
     System.out.println(a.toString());
-
+*/
   }
 }
